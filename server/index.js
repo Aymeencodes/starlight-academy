@@ -25,7 +25,7 @@ app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
-    app.listen(3001, () => {
+    app.listen("https://starlight-server.onrender.com", () => {
       console.log("Server is running");
     });
   })
