@@ -4,7 +4,6 @@ import React from "react";
 import { FaQuestion } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
 function Hero() {
-  const encodedUrl = encodeURIComponent('https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(starlight)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed');
 
   return (
     <div>

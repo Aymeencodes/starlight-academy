@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { useRouter } from 'next/navigation';
-function page() {
+function Page() {
   const router = useRouter();
   const [userDate, setUserData] = useState({
     name: "",
@@ -117,4 +117,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

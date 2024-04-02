@@ -2,7 +2,7 @@
 import React , {useContext,useEffect} from 'react'
 import { UserContext } from '../context/userContext'
 import { useRouter } from 'next/navigation';
-function page() {
+function Page() {
     const router = useRouter();
 
 const {setcurrentUser} = useContext(UserContext)
@@ -14,4 +14,4 @@ router.push('/login')
   )
 }
 
-export default page
+export default Page

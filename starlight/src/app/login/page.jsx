@@ -1,39 +1,42 @@
 "use client"
 import axios from 'axios';
 import { useRouter } from 'next/navigation';
-import React, { useContext, useState } from 'react'
+import React, { useContext, useState } from 'react';
 import { UserContext } from '../context/userContext';
-function page() {
+
+function Page() { // Capitalize the first letter of the function name
   const router = useRouter();
   const [userDate, setUserData] = useState({
     email: "",
     password: "",
   });
-  const [error, seterror] = useState("");
-  const {setcurrentUser} = useContext(UserContext)
+  const [error, setError] = useState(""); // Changed seterror to setError to comply with naming conventions
+  const { setcurrentUser } = useContext(UserContext);
+
   const changeInputHandler = (e) => {
     setUserData((prevState) => {
       return { ...prevState, [e.target.name]: e.target.value };
     });
   };
+
   const loginUser = async (e) => {
     e.preventDefault();
-    seterror("");
+    setError(""); // Changed seterror to setError to comply with naming conventions
     try {
       const response = await axios.post(
         `http://localhost:3001/api/users/login`,
         userDate
       );
       const user = await response.data;
-      setcurrentUser(user)
+      setcurrentUser(user);
       console.log(user);
       if (!user) {
-        seterror("couldn't register user");
+        setError("couldn't register user"); // Changed seterror to setError to comply with naming conventions
       }
       router.push('/blog');
 
     } catch (err) {
-      seterror(err.response.data.message);
+      setError(err.response.data.message); // Changed seterror to setError to comply with naming conventions
     }
   };
   return (
@@ -110,4 +113,4 @@ function page() {
   )
 }
 
-export default page
+export default Page

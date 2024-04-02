@@ -1,7 +1,7 @@
 import React from 'react'
 import PostDetail from '../components/PostDetail'
 
-function page() {
+function Page() {
   return (
     <div>
       <PostDetail/>
@@ -9,4 +9,4 @@ function page() {
   )
 }
 
-export default page
+export default Page
