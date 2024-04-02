@@ -12,7 +12,7 @@ function Reviews() {
         </h2>
       </div>
       <div className=" flex flex-wrap justify-center  items-center">
-        <div class="card w-full md:w-[380px] h-96 bg-base-100 shadow-xl image-full mb-8 md:mr-8">
+        <div className="card w-full md:w-[380px] h-96 bg-base-100 shadow-xl image-full mb-8 md:mr-8">
           {" "}
           <figure>
             <img src="/images/review1.jpg" alt="Shoes" />
@@ -57,7 +57,7 @@ function Reviews() {
             </div>
           </div>
         </div>
-        <div class="card w-full md:w-[380px] h-96 bg-base-100 shadow-xl image-full mb-8 md:mr-8">
+        <div className="card w-full md:w-[380px] h-96 bg-base-100 shadow-xl image-full mb-8 md:mr-8">
           {" "}
           <figure>
             <img src="/images/review2.jpg" alt="Shoes" />
@@ -102,7 +102,7 @@ function Reviews() {
             </div>
           </div>
         </div>
-        <div class="card w-full md:w-[380px] h-96 bg-base-100 shadow-xl image-full mb-8 md:mr-8">
+        <div className="card w-full md:w-[380px] h-96 bg-base-100 shadow-xl image-full mb-8 md:mr-8">
           {" "}
           <figure>
             <img src="/images/review3.jpg" alt="Shoes" />

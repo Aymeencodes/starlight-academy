@@ -3,26 +3,26 @@ import React from "react";
 function Services() {
   return (
     <div>
-      <div id="services" class="our-services container mx-auto section">
-        <div class="container">
-          <div class="grid grid-cols-1 lg:grid-cols-2">
+      <div id="services" className="our-services container mx-auto section">
+        <div className="container">
+          <div className="grid grid-cols-1 lg:grid-cols-2">
             <div
-              class="col-span-1 lg:col-span-1 flex items-center justify-center lg:justify-start wow fadeInLeft"
+              className="col-span-1 lg:col-span-1 flex items-center justify-center lg:justify-start wow fadeInLeft"
               data-wow-duration="1s"
               data-wow-delay="0.2s"
             >
-              <div class="left-image md:mr-[45px] ">
+              <div className="left-image md:mr-[45px] ">
                 <img src="/images/services.png" alt="" />
               </div>
             </div>
-            <div class="col-span-1 lg:col-span-1 wow fadeInRight">
-              <div class=" md:mr-[100px]  section-heading">
-                <h2 class="text-2xl  lg:text-3xl font-bold">
-                  "Discover Our Starlight <em class="text-blue-500">school</em>{" "}
-                  Services &amp; <span class="text-purple-900">Project</span>{" "}
+            <div className="col-span-1 lg:col-span-1 wow fadeInRight">
+              <div className=" md:mr-[100px]  section-heading">
+                <h2 className="text-2xl  lg:text-3xl font-bold">
+                  "Discover Our Starlight <em className="text-blue-500">school</em>{" "}
+                  Services &amp; <span className="text-purple-900">Project</span>{" "}
                   Ideas "
                 </h2>
-                <p class="text-gray-700">
+                <p className="text-gray-700">
                   Achieve excellence with Starlight School's tailored services.
                   From language exam prep to hackathon support and science
                   competition training, our expert guidance equips you for
