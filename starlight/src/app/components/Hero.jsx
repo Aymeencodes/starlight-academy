@@ -79,7 +79,7 @@ function Hero() {
                   <iframe
                     width="100%"
                     height="600"
-                    frameborder="0"
+                    frameBorder="0"
                     scrolling="no"
                     marginheight="0"
                     marginwidth="0"
