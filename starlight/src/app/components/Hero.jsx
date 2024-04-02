@@ -64,7 +64,7 @@ function Hero() {
           <div className=" flex flex-col w-full gap-2 sm:flex-row">
             <button
               onClick={() => document.getElementById("my_modal_3").showModal()}
-              className=" hover:bg-blue-900 transition-all ease-in btn_blue flexCenter gap-3 rounded-full border"
+              className=" hover:bg-blue-900  transition-all ease-in btn_blue flexCenter gap-3 rounded-full border"
             >
               See Location
             </button>
