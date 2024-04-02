@@ -7,11 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "install-server": "cd Server && npm install",
-    "start-server": "cd Server && node index.js",
-    "install-client": "cd client && npm install",
-    "build-client": "cd client && npm run build",
-    "start-client": "cd client && npm run start"
+    "install-server": "cd server && npm install",
+    "start-server": "cd server && node index.js",
+    "install-client": "cd starlight && npm install",
+    "build-starlight": "cd starlight && npm run build",
+    "start-starlight": "cd starlight && npm run start"
   },
   "dependencies": {
     "@formspree/react": "^2.5.1",
