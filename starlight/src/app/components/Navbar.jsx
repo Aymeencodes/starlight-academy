@@ -24,9 +24,11 @@ function Navbar() {
 
   
   return (
+  
     <nav className='  flex items-center justify-between max-container padding-container container relative  z-30 py-5'>
+    
         <Link href={"/"}>
-            <Image  src="/images/starlight.png" alt="logo" width={98} height={1} />            
+            <img  src="/images/starlight.png" alt="logo" className=' w-28'  />            
         </Link>
 {  currentUser?.id &&   <ul className=' hidden h-full gap-12 lg:flex '>
                 <li>
